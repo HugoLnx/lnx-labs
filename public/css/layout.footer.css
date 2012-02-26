@@ -1,0 +1,31 @@
+div.clear {
+  width: 100%;
+  overflow: auto;
+}
+
+div#footer {
+  padding: 50px;
+  margin: 0px 14%;
+}
+
+div#footer > ul, div#footer > ul > li > ul {
+  list-style: none;
+}
+
+div#footer > ul > li > ul {
+  text-align: center;
+  float: left;
+}
+
+div#footer > ul > li > ul > li.label {
+  font-weight: bolder;
+  font-family: technique;
+}
+
+div#footer > ul > li > ul > li a,
+div#footer > ul > li > ul > li a:hover,
+div#footer > ul > li > ul > li a:link,
+div#footer > ul > li > ul > li a:active {
+  text-decoration: none;
+  color: black;
+}

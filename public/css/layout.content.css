@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "technique";
+  src: url("/fonts/techniqu.ttf");
+}
+
+body {
+  background: #44f;
+}
+
+div#logo {
+  background: url("/images/logo.png") no-repeat;
+  width: 266px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#content {
+  margin: 0px 17%;
+}
+
+div#header {
+  padding-bottom: 20px;
+}

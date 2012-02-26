@@ -26,7 +26,7 @@ function experimentHtml(experiment) {
 
 server.get("/", function(req,res){
   var body = jsont.expand(views('index.jsont'),{experiments: find('experiments')});
-  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body});
+  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"styles-extra":['index.css']});
   res.send(layout);
 });
 

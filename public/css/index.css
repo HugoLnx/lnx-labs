@@ -1,0 +1,44 @@
+ul#experiments {
+  margin:0px;
+  padding:0px;
+  list-style: none;
+}
+
+ul#experiments>a>li {
+  float:left;
+  padding:5px;
+  margin: 0px 5px;
+  text-align: center;
+  border: 8px solid #33e;
+  background: #77f;
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  -khtml-border-radius:  10px;
+  border-radius:         10px;
+  -moz-box-shadow:    -0px 0px 10px #88f;
+  -webkit-box-shadow: -0px 0px 10px #88f;
+  box-shadow:         -0px 0px 10px #88f;
+}
+
+ul#experiments>a>li:hover {
+  opacity: 0.75;
+}
+
+ul#experiments>a,ul#experiments>a:hover,ul#experiments>a:link,ul#experiments>a:hover,ul#experiments>a:active {
+  text-decoration: none;
+  color: #99f;
+}
+ul#experiments>a>li>h2 {
+  font-size: 40px;
+  font-family: technique;
+  text-shadow: 0px -2px 2px #55f,0px -2px 2px #55f;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul#experiments>a>li>div {
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  -khtml-border-radius:  10px;
+  border-radius:         10px;
+}

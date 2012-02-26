@@ -1,35 +1,57 @@
 <html>
 <head>
   <title>Lnx Labs</title>
-  <style type="text/css">
-    body {
-      background: #44f;
-    }
-
-    div#logo {
-      background: url("/images/logo.png") no-repeat;
-      width: 266px;
-      height: 110px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    div#content {
-      margin: 0px 17%;
-    }
-
-    div#header {
-      padding-bottom: 20px;
-    }
-  </style>
+  <link type="text/css" rel="stylesheet" href="/css/layout.content.css"></link>
+  <link type="text/css" rel="stylesheet" href="/css/layout.footer.css"></link>
+  {.repeated section styles-extra}
+    <link type="text/css" rel="stylesheet" href="/css/{@}"></link>
+  {.end}
   {.section head-extra}{@}{.end}
 </head>
 <body>
   <div id="header">
     <a href="/"><div id="logo"></div></a>
   </div>
+
   <div id="content">
     {.section body-extra}{@}{.end}
+  </div>
+
+  <div class="clear">
+    <div id="footer">
+      <ul>
+        <li>
+          <ul>
+            <li class="label">My name</li>
+            <li>Hugo Roque</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="label">My blog</li>
+            <li><a href="http://hugolnx.com">hugolnx.com</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="label">My email</li>
+            <li><a href="mailto:hugolnx@gmail.com">hugolnx@gmail.com</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="label">My twitter</li>
+            <li><a href="http://twitter.com/hugolnx">twitter.com/hugolnx</a></li></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="label">My code</li>
+            <li><a href="http://github.com/hugolnx">github.com/hugolnx</a></li></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>
