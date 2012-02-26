@@ -20,7 +20,6 @@ function views(name) {
 }
 function experimentHtml(experiment) {
   return {
-    body: views("/adapters/"+experiment+".body.jsont"),
     head: views("/adapters/"+experiment+".head.jsont")
   }
 }
@@ -31,11 +30,13 @@ server.get("/", function(req,res){
   res.send(layout);
 });
 
-server.get("/:experiment", function(req,res){
-  var html = experimentHtml(req.params.experiment);
-  var path = '/experiments/'+req.params.experiment;
-  var body = jsont.expand(html.body,{path: path});
-  var head = jsont.expand(html.head,{path: path});
+server.get(/\/(estrelas|pingos)/, function(req,res){
+  var experiment = req.params[0];
+  var body_s = views("/adapters/"+experiment+".body.jsont");
+  var style = views("/adapters/canvas-default-style.jsont");
+  var path = '/experiments/'+experiment;
+  var body = jsont.expand(body_s,{path: path});
+  var head = jsont.expand(style,{"canvas-id": experiment});
   var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"head-extra":head});
   res.send(layout);
 })
