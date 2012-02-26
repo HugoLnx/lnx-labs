@@ -2,11 +2,11 @@
   {
     "name": "Estrelas",
     "url": "estrelas/",
-    "image": "/images/bla.png"
+    "image": "/images/experiments/estrelas.gif"
   },
   {
     "name": "Pingos",
     "url": "pingos/",
-    "image": "/images/bla.png"
+    "image": "/images/experiments/pingos.gif"
   }
 ]

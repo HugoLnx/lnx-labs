@@ -1,8 +1,10 @@
 <ul>
   {.repeated section experiments}
   <li>
-    <h2><a href="{url}">{name}</a></h2>
-    <div style="width:200px;height:200px;background:url('{image}') no-repeat;"></div>
+    <a href="{url}">
+      <h2>{name}</h2>
+      <div style="width:400px;height:200px;background:url('{image}') no-repeat;"></div>
+    </a>
   </li>
   {.end}
 </ul>
