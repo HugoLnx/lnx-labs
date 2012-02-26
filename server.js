@@ -10,6 +10,11 @@ server.configure(function(){
   server.set('views',__dirname + '/views/');
 });
 
+function find(name) {
+  var json_s = fs.readFileSync(__dirname+'/db/'+name+'.json',"utf-8");
+  return JSON.parse(json_s);
+}
+
 function views(name) {
   return fs.readFileSync(server.settings.views+name,"utf-8");
 }
@@ -21,7 +26,7 @@ function experimentHtml(experiment) {
 }
 
 server.get("/", function(req,res){
-  var body = jsont.expand(views('index.jsont'),{experiments: [{name:'Estrelas',url:'estrelas/',image:'/images/bla.png'}]});
+  var body = jsont.expand(views('index.jsont'),{experiments: find('experiments')});
   var layout = jsont.expand(views('layout.jsont'),{"body-extra": body});
   res.send(layout);
 });
