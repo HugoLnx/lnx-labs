@@ -3,5 +3,10 @@
     "name": "Estrelas",
     "url": "estrelas/",
     "image": "/images/bla.png"
+  },
+  {
+    "name": "Pingos",
+    "url": "pingos/",
+    "image": "/images/bla.png"
   }
 ]

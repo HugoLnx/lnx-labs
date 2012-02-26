@@ -31,13 +31,15 @@ server.get("/", function(req,res){
   res.send(layout);
 });
 
-server.get("/estrelas", function(req,res){
-  var html = experimentHtml('estrelas');
-  var body = jsont.expand(html.body,{path: '/experiments/estrelas/'});
-  var head = jsont.expand(html.head,{path: '/experiments/estrelas/'});
+server.get("/:experiment", function(req,res){
+  var html = experimentHtml(req.params.experiment);
+  var path = '/experiments/'+req.params.experiment;
+  var body = jsont.expand(html.body,{path: path});
+  var head = jsont.expand(html.head,{path: path});
   var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"head-extra":head});
   res.send(layout);
 })
+
 
 var port = process.env.PORT || 3000;
 
