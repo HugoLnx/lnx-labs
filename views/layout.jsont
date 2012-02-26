@@ -1,10 +1,35 @@
 <html>
 <head>
   <title>Lnx Labs</title>
+  <style type="text/css">
+    body {
+      background: #44f;
+    }
+
+    div#logo {
+      background: url("/images/logo.png") no-repeat;
+      width: 266px;
+      height: 110px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    div#content {
+      margin: 0px 17%;
+    }
+
+    div#header {
+      padding-bottom: 20px;
+    }
+  </style>
   {.section head-extra}{@}{.end}
 </head>
 <body>
-  <h1>Lnx Labs</h1>
-  {.section body-extra}{@}{.end}
+  <div id="header">
+    <a href="/"><div id="logo"></div></a>
+  </div>
+  <div id="content">
+    {.section body-extra}{@}{.end}
+  </div>
 </body>
 </html>

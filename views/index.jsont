@@ -1,10 +1,62 @@
+<style type="text/css">
+  @font-face {
+    font-family: "technique";
+    src: url("/fonts/techniqu.ttf");
+  }
+
+  ul {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+  }
+
+  ul>a>li {
+    float:left;
+    padding:5px;
+    margin: 0px 5px;
+    text-align: center;
+    border: 8px solid #33e;
+    background: #77f;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:    10px;
+    -khtml-border-radius:  10px;
+    border-radius:         10px;
+    -moz-box-shadow:    -0px 0px 10px #88f;
+    -webkit-box-shadow: -0px 0px 10px #88f;
+    box-shadow:         -0px 0px 10px #88f;
+  }
+
+  ul>a>li:hover {
+    opacity: 0.75;
+  }
+  
+  ul>a,ul>a:hover,ul>a:link,ul>a:hover,ul>a:active {
+    text-decoration: none;
+    color: #99f;
+  }
+  ul>a>li>h2 {
+    font-size: 40px;
+    font-family: technique;
+    text-shadow: 0px -2px 2px #55f,0px -2px 2px #55f;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  ul>a>li>div {
+    -webkit-border-radius: 10px;
+    -moz-border-radius:    10px;
+    -khtml-border-radius:  10px;
+    border-radius:         10px;
+  }
+</style>
+
 <ul>
   {.repeated section experiments}
-  <li>
-    <a href="{url}">
+  <a href="{url}">
+    <li>
       <h2>{name}</h2>
       <div style="width:400px;height:200px;background:url('{image}') no-repeat;"></div>
-    </a>
-  </li>
+    </li>
+  </a>
   {.end}
 </ul>
