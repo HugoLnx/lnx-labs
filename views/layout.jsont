@@ -1,0 +1,10 @@
+<html>
+<head>
+  <title>Lnx Labs</title>
+  {.section head-extra}{@}{.end}
+</head>
+<body>
+  <h1>Lnx Labs</h1>
+  {.section body-extra}{@}{.end}
+</body>
+</html>

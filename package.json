@@ -1,0 +1,16 @@
+{
+  "name": "lnx-labs",
+  "author": "Hugo Roque (a.k.a hugolnx)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HugoLnx/lnx-labs.git"
+  },
+
+  "dependencies": {
+    "express": "2.5.x"
+  },
+
+  "main": "index",
+  "engines": {"node": "0.6.x"}
+}
