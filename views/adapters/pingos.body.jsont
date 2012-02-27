@@ -1,4 +1,4 @@
-<canvas id="pingos" width="800" height="400"></canvas>
+<canvas id="pingos" width="800" height="350"></canvas>
 
 <script type="text/javascript" src="{path}/javascript/Pingo.js"></script>
 <script type="text/javascript" src="{path}/javascript/Canvas.js"></script>

@@ -1,4 +1,4 @@
-<canvas id="estrelas" width="800" height="400"></canvas>
+<canvas id="estrelas" width="800" height="350"></canvas>
 
 <script type="text/javascript" src="{path}/javascript/Estrela.js"></script>
 <script type="text/javascript" src="{path}/javascript/Constelacao.js"></script>
