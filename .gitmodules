@@ -1,6 +1,6 @@
-[submodule "public/projects/estrelas"]
-	path = public/projects/estrelas
+[submodule "public/experiments/estrelas"]
+	path = public/experiments/estrelas
 	url = git@github.com:HugoLnx/Estrela.git
-[submodule "public/projects/pingos"]
-	path = public/projects/pingos
+[submodule "public/experiments/pingos"]
+	path = public/experiments/pingos
 	url = git@github.com:HugoLnx/Pingos.git
