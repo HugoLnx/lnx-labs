@@ -10,7 +10,7 @@ server.configure(function(){
   server.set('views',__dirname + '/views/');
 });
 
-function find(name) {
+function db(name) {
   var json_s = fs.readFileSync(__dirname+'/db/'+name+'.json',"utf-8");
   return JSON.parse(json_s);
 }
@@ -24,20 +24,30 @@ function experimentHtml(experiment) {
   }
 }
 
+function findExperimentById(id) {
+  var experiments = db('experiments');
+  for(var i in experiments) {
+    var experiment = experiments[i];
+    if(experiment.id === id){
+      return experiment;
+    }
+  }
+}
+
 server.get("/", function(req,res){
-  var body = jsont.expand(views('index.jsont'),{experiments: find('experiments')});
-  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"styles-extra":['index.css']});
+  var body = jsont.expand(views('index.jsont'),{experiments: db('experiments')});
+  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"styles-extra":['index.css'], forkme: "hugolnx/lnx-labs"});
   res.send(layout);
 });
 
 server.get(/\/(estrelas|pingos)/, function(req,res){
-  var experiment = req.params[0];
-  var body_s = views("/adapters/"+experiment+".body.jsont");
+  var experiment = findExperimentById(req.params[0]);
+  var body_s = views("/adapters/"+experiment.id+".body.jsont");
   var style = views("/adapters/canvas-default-style.jsont");
-  var path = '/experiments/'+experiment;
+  var path = '/experiments/'+experiment.id;
   var body = jsont.expand(body_s,{path: path});
-  var head = jsont.expand(style,{"canvas-id": experiment});
-  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"head-extra":head});
+  var head = jsont.expand(style,{"canvas-id": experiment.id});
+  var layout = jsont.expand(views('layout.jsont'),{"body-extra": body,"head-extra":head,forkme:experiment.github});
   res.send(layout);
 })
 

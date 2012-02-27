@@ -1,12 +1,16 @@
 [
   {
+    "id": "estrelas",
     "name": "Estrelas",
-    "url": "estrelas/",
-    "image": "/images/experiments/estrelas.gif"
+    "url": "estrelas",
+    "image": "/images/experiments/estrelas.gif",
+    "github": "hugolnx/estrela"
   },
   {
+    "id": "pingos",
     "name": "Pingos",
-    "url": "pingos/",
-    "image": "/images/experiments/pingos.gif"
+    "url": "pingos",
+    "image": "/images/experiments/pingos.gif",
+    "github": "hugolnx/pingos"
   }
 ]
