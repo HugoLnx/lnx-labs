@@ -51,6 +51,15 @@ server.get(/\/(estrelas|pingos)/, function(req,res){
   res.send(layout);
 })
 
+server.post('/estrelas', function(req,res){
+  var body_s = views("/adapters/estrelas.body.jsont");
+  var style = views("/adapters/canvas-default-style.jsont");
+  var path = '/experiments/estrelas';
+  var body = jsont.expand(body_s,{path: path});
+  var head = jsont.expand(style,{"canvas-id": 'estrelas'});
+  res.send("<html><head>"+head+"</head><body>"+body+"</body></html>");
+});
+
 
 var port = process.env.PORT || 3000;
 
