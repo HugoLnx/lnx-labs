@@ -1,8 +1,10 @@
 <canvas id="estrelas" width="800" height="350"></canvas>
 
-<script type="text/javascript" src="{path}/javascript/Estrela.js"></script>
-<script type="text/javascript" src="{path}/javascript/Constelacao.js"></script>
-<script type="text/javascript" src="{path}/javascript/Canvas.js"></script>
+<script type="text/javascript" src="{path}/javascript/estrela.js"></script>
+<script type="text/javascript" src="{path}/javascript/constelacao.js"></script>
+<script type="text/javascript" src="{path}/javascript/pintor_de_estrela.js"></script>
+<script type="text/javascript" src="{path}/javascript/pintor_de_constelacao.js"></script>
+<script type="text/javascript" src="{path}/javascript/canvas.js"></script>
 <script type="text/javascript" src="{path}/javascript/application.js"></script>
 <script type="text/javascript">
   window.onload = function(){
