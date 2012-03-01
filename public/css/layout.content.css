@@ -16,7 +16,8 @@ div#logo {
 }
 
 div#content {
-  margin: 0px 14%;
+  width: 900px;
+  margin: 0px auto;
 }
 
 div#header {

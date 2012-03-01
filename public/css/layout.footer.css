@@ -5,7 +5,8 @@ div.clear {
 
 div#footer {
   padding-top: 20px;
-  margin: 0px 14%;
+  width: 900px;
+  margin: 0px auto;
 }
 
 div#footer > ul, div#footer > ul > li > ul {
@@ -18,7 +19,6 @@ div#footer > ul > li > ul {
 }
 
 div#footer > ul > li > ul > li.label {
-  font-weight: bolder;
   font-family: technique;
 }
 
