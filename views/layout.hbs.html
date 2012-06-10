@@ -3,22 +3,22 @@
   <title>Lnx Labs</title>
   <link type="text/css" rel="stylesheet" href="/css/layout.content.css"></link>
   <link type="text/css" rel="stylesheet" href="/css/layout.footer.css"></link>
-  {.repeated section styles-extra}
-    <link type="text/css" rel="stylesheet" href="/css/{@}"></link>
-  {.end}
-  {.section head-extra}{@}{.end}
+  {{#styles-extra}}
+    <link type="text/css" rel="stylesheet" href="/css/{{.}}"></link>
+  {{/styles-extra}}
+  {{head-extra}}
 </head>
 <body>
-{.section forkme}
-  <a href="http://github.com/{@}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
-{.end}
+{{#forkme}}
+  <a href="http://github.com/{{.}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
+{{/forkme}}
 
   <div id="header">
     <a href="/"><div id="logo"></div></a>
   </div>
 
   <div id="content">
-    {.section body-extra}{@}{.end}
+    {{{ body }}}
   </div>
 
   <div class="clear">
