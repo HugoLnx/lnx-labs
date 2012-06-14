@@ -1,25 +1,27 @@
 var fs = require("fs");
-var server = require("./config/server.js").server;
+var app = require("./lib/app.js");
 
-server.get("/", function(req,res){
-  res.render('index', {
-    "experiments": db('experiments'),
-    "forlayout": {
-      "styles-extra":['index.css'],
-      "forkme": "hugolnx/lnx-labs"
-    }
+app.start(function(server) {
+  server.get("/", function(req,res){
+    res.render('index', {
+      "experiments": db('experiments'),
+      "forlayout": {
+        "styles-extra":['index.css'],
+        "forkme": "hugolnx/lnx-labs"
+      }
+    });
   });
-});
 
-server.get(/\/(estrelas|pingos)/, function(req,res) {
-  var experiment = findExperimentById(req.params[0]);
-  res.render("adapters/"+experiment.id, {
-    "path": experiment.path,
-    "forlayout": {
-      "styles-extra": ['canvas-experiment.css'],
-      "forkme": experiment.github
-    }
-  })
+  server.get(/\/(estrelas|pingos)/, function(req,res) {
+    var experiment = findExperimentById(req.params[0]);
+    res.render("adapters/"+experiment.id, {
+      "path": experiment.path,
+      "forlayout": {
+        "styles-extra": ['canvas-experiment.css'],
+        "forkme": experiment.github
+      }
+    })
+  });
 });
 
 function db(name) {
@@ -36,9 +38,3 @@ function findExperimentById(id) {
     }
   }
 }
-
-var port = process.env.PORT || 3000;
-
-console.log("Listening on port " + port);
-
-server.listen(port);
