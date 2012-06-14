@@ -4,13 +4,15 @@
     "name": "Estrelas",
     "url": "estrelas",
     "image": "/images/experiments/estrelas.gif",
-    "github": "hugolnx/estrela"
+    "github": "hugolnx/estrela",
+    "path": "/experiments/estrelas"
   },
   {
     "id": "pingos",
     "name": "Pingos",
     "url": "pingos",
     "image": "/images/experiments/pingos.gif",
-    "github": "hugolnx/pingos"
+    "github": "hugolnx/pingos",
+    "path": "/experiments/pingos"
   }
 ]

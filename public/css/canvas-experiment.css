@@ -1,0 +1,11 @@
+canvas {
+  border: 8px solid #33e;
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  -khtml-border-radius:  10px;
+  border-radius:         10px;
+  -moz-box-shadow:    -0px 0px 10px #88f;
+  -webkit-box-shadow: -0px 0px 10px #88f;
+  box-shadow:         -0px 0px 10px #88f;
+  cursor:none;
+}

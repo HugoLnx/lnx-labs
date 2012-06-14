@@ -3,15 +3,15 @@
   <title>Lnx Labs</title>
   <link type="text/css" rel="stylesheet" href="/css/layout.content.css"></link>
   <link type="text/css" rel="stylesheet" href="/css/layout.footer.css"></link>
-  {{#styles-extra}}
+  {{#forlayout.styles-extra}}
     <link type="text/css" rel="stylesheet" href="/css/{{.}}"></link>
-  {{/styles-extra}}
-  {{head-extra}}
+  {{/forlayout.styles-extra}}
+  {{forlayout.head-extra}}
 </head>
 <body>
-{{#forkme}}
+{{#forlayout.forkme}}
   <a href="http://github.com/{{.}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
-{{/forkme}}
+{{/forlayout.forkme}}
 
   <div id="header">
     <a href="/"><div id="logo"></div></a>
