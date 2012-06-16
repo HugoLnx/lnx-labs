@@ -14,5 +14,13 @@
     "image": "/images/experiments/pingos.gif",
     "github": "hugolnx/pingos",
     "path": "/experiments/pingos"
+  },
+  {
+    "id": "pac-ghost",
+    "name": "Ghost do Pacman",
+    "url": "pac-ghost",
+    "github": null,
+    "image": null,
+    "path": "/experiments/pacman-ghost.html"
   }
 ]
