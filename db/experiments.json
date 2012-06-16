@@ -22,7 +22,8 @@
   {
     "id": "graph3d",
     "name": "Graficos 3D",
-    "github": null
+    "github": "hugolnx/Canvas-Graphic-3D",
+    "path": "/experiments/canvas-graphic-3d"
   },
 
   {

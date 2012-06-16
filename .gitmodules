@@ -4,3 +4,6 @@
 [submodule "public/experiments/pingos"]
 	path = public/experiments/pingos
 	url = git@github.com:HugoLnx/Pingos.git
+[submodule "public/experiments/canvas-graphic-3d"]
+	path = public/experiments/canvas-graphic-3d
+	url = git@github.com:/HugoLnx/Canvas-Graphic-3D.git
