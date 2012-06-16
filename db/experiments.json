@@ -7,6 +7,7 @@
     "github": "hugolnx/estrela",
     "path": "/experiments/estrelas"
   },
+
   {
     "id": "pingos",
     "name": "Pingos",
@@ -15,12 +16,20 @@
     "github": "hugolnx/pingos",
     "path": "/experiments/pingos"
   },
+
   {
     "id": "pac-ghost",
     "name": "Ghost do Pacman",
     "url": "pac-ghost",
     "github": null,
-    "image": null,
-    "path": "/experiments/pacman-ghost.html"
+    "image": null
+  },
+
+  {
+    "id": "graph3d",
+    "name": "Graficos 3D",
+    "url": "graph3d",
+    "github": null,
+    "image": null
   }
 ]
