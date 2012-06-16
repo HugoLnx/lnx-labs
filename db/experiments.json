@@ -28,7 +28,7 @@
   {
     "id": "ondas",
     "name": "Ondas",
-    "github": "/hugolnx/ondas-no-canvas",
+    "github": "hugolnx/ondas-no-canvas",
     "path": "http://ondas-no-canvas.heroku.com/"
   }
 ]
