@@ -13,7 +13,6 @@ app.start(function(server) {
   });
 
   server.get(/\/([^\/]+)/, function(req,res) {
-    console.log(req.params[0]);
     var experiment = db.experiment(req.params[0]);
     res.render("adapters/"+experiment.id, {
       "path": experiment.path,
