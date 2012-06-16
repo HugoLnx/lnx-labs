@@ -2,7 +2,6 @@
   {
     "id": "estrelas",
     "name": "Estrelas",
-    "url": "estrelas",
     "image": "/images/experiments/estrelas.gif",
     "github": "hugolnx/estrela",
     "path": "/experiments/estrelas"
@@ -11,7 +10,6 @@
   {
     "id": "pingos",
     "name": "Pingos",
-    "url": "pingos",
     "image": "/images/experiments/pingos.gif",
     "github": "hugolnx/pingos",
     "path": "/experiments/pingos"
@@ -20,7 +18,6 @@
   {
     "id": "pac-ghost",
     "name": "Ghost do Pacman",
-    "url": "pac-ghost",
     "github": null,
     "image": null
   },
@@ -28,7 +25,6 @@
   {
     "id": "graph3d",
     "name": "Graficos 3D",
-    "url": "graph3d",
     "github": null,
     "image": null
   },
@@ -36,7 +32,6 @@
   {
     "id": "ondas",
     "name": "Ondas",
-    "url": "ondas",
     "github": "/hugolnx/ondas-no-canvas",
     "image": null,
     "path": "http://ondas-no-canvas.heroku.com/"
