@@ -7,3 +7,6 @@
 [submodule "public/experiments/canvas-graphic-3d"]
 	path = public/experiments/canvas-graphic-3d
 	url = git@github.com:/HugoLnx/Canvas-Graphic-3D.git
+[submodule "public/experiments/ghost-pacman"]
+	path = public/experiments/ghost-pacman
+	url = git@github.com:/HugoLnx/ghost-pacman.git

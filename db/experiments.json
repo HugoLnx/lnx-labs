@@ -16,7 +16,8 @@
   {
     "id": "pac-ghost",
     "name": "Ghost do Pacman",
-    "github": null
+    "github": "hugolnx/ghost-pacman",
+    "path": "/experiments/ghost-pacman"
   },
 
   {
