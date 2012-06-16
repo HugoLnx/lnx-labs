@@ -31,5 +31,14 @@
     "url": "graph3d",
     "github": null,
     "image": null
+  },
+
+  {
+    "id": "ondas",
+    "name": "Ondas",
+    "url": "ondas",
+    "github": "/hugolnx/ondas-no-canvas",
+    "image": null,
+    "path": "http://ondas-no-canvas.heroku.com/"
   }
 ]
