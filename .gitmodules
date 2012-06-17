@@ -10,3 +10,6 @@
 [submodule "public/experiments/ghost-pacman"]
 	path = public/experiments/ghost-pacman
 	url = git@github.com:/HugoLnx/ghost-pacman.git
+[submodule "public/experiments/exercicios-matematica-6o-ano"]
+	path = public/experiments/exercicios-matematica-6o-ano
+	url = git@github.com:/HugoLnx/exercicios-matematica-6o-ano.git

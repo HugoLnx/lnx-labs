@@ -42,5 +42,14 @@
     "path": "http://ondas-no-canvas.heroku.com/",
     "keywords": ["canvas", "ondas", "fisica"],
     "description": "Experimento escolar de física onde são passadas as informações da onda e a mesma é desenhada utilizando canvas."
+  },
+
+  {
+    "id": "exercicios-matematica-6o-ano",
+    "name": "Exercicios de Matematica para 6o Ano",
+    "github": "hugolnx/exercicios-matematica-6o-ano",
+    "path": "/experiments/exercicios-matematica-6o-ano",
+    "keywords": ["exercicios", "matematica", "6", "fundamental"],
+    "description": "Criador de exercicios automaticos para alunos do 6o ano do fundamental. As matérias envolvidas são: Multiplos, Divisores, Multiplos comuns, mínimo múltiplo comum (mmc), máximo divisor comum (MDC), soma de graus e subtração de graus."
   }
 ]
