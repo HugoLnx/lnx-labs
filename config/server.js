@@ -10,6 +10,7 @@ server.configure(function(){
   server.register('.html', hbs);
   server.set('view engine', 'hbs.html');
   server.set('views', __dirname + '/../views/');
+  server.set('view options', {"layout": false});
 });
 
 exports.server = server;
