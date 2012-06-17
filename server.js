@@ -7,7 +7,9 @@ app.start(function(server) {
       "experiments": db.experiments(),
       "forlayout": {
         "styles-extra":['index.css'],
-        "forkme": "hugolnx/lnx-labs"
+        "forkme": "hugolnx/lnx-labs",
+        "keywords": "labs,hugolnx,html5,canvas",
+        "description": "Sou Hugo Roque(a.k.a hugolnx) e esse é o meu laboratórios de experiências com html5 & cia."
       }
     });
   });
@@ -18,7 +20,9 @@ app.start(function(server) {
       "path": experiment.path,
       "forlayout": {
         "styles-extra": ['canvas-experiment.css'],
-        "forkme": experiment.github
+        "forkme": experiment.github,
+        "keywords": experiment.keywords.join(','),
+        "description": experiment.description
       }
     })
   });

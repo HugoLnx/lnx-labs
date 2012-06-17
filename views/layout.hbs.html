@@ -1,24 +1,31 @@
+{{#with forlayout}}
 <html>
 <head>
-  <title>Lnx Labs</title>
+  <title>Lnx Labs{{#title_complement}}: {{this}}{{/title_complement}}</title>
   <link type="text/css" rel="stylesheet" href="/css/layout.content.css"></link>
   <link type="text/css" rel="stylesheet" href="/css/layout.footer.css"></link>
-  {{#forlayout.styles-extra}}
-    <link type="text/css" rel="stylesheet" href="/css/{{.}}"></link>
-  {{/forlayout.styles-extra}}
-  {{forlayout.head-extra}}
+  {{#each styles-extra}}
+    <link type="text/css" rel="stylesheet" href="/css/{{this}}"></link>
+  {{/each}}
+  {{#keywords}}<meta name="keywords" content="{{this}}" />{{/keywords}}
+  {{#description}}<meta name="description" content="{{{this}}}" />{{/description}}
+  
+  {{#robots}}<meta name="robots" content="{{this}}" />
+  {{else}}<meta name="robots" content="index" />
+  {{/robots}}
+  {{head-extra}}
 </head>
 <body>
-{{#forlayout.forkme}}
+{{#forkme}}
   <a href="http://github.com/{{.}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
-{{/forlayout.forkme}}
+{{/forkme}}
 
   <div id="header">
     <a href="/"><div id="logo"></div></a>
   </div>
 
   <div id="content">
-    {{{ body }}}
+    {{{ ../body }}}
   </div>
 
   <div class="clear">
@@ -72,3 +79,4 @@
   </script>
 </body>
 </html>
+{{/with}}

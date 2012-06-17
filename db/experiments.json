@@ -3,34 +3,44 @@
     "id": "estrelas",
     "name": "Estrelas",
     "github": "hugolnx/estrela",
-    "path": "/experiments/estrelas"
+    "path": "/experiments/estrelas",
+    "keywords": ["canvas", "estrelas", "html5"],
+    "description": "Um experimento com canvas onde uma estrela é simulada com o passar do mouse."
   },
 
   {
     "id": "pingos",
     "name": "Pingos",
     "github": "hugolnx/pingos",
-    "path": "/experiments/pingos"
+    "path": "/experiments/pingos",
+    "keywords": ["canvas", "pingos", "html5"],
+    "description": "Um experimento com canvas onde um tipo de pingo aparece ao clicar na tela."
   },
 
   {
     "id": "pac-ghost",
     "name": "Ghost do Pacman",
     "github": "hugolnx/ghost-pacman",
-    "path": "/experiments/ghost-pacman"
+    "path": "/experiments/ghost-pacman",
+    "keywords": ["canvas", "pacman", "animation"],
+    "description": "Uma pequena animação com canvas do fantasma do pacman. O fantasma é 100% desenhado usando canvas, nenhuma imagem é importada durante a animação."
   },
 
   {
     "id": "graph3d",
     "name": "Graficos 3D",
     "github": "hugolnx/Canvas-Graphic-3D",
-    "path": "/experiments/canvas-graphic-3d"
+    "path": "/experiments/canvas-graphic-3d",
+    "keywords": ["canvas", "grafico", "3D"],
+    "description": "Um experimento com canvas onde um gráfico 3D é desenhado baseado numa função. Tal experimento foi feito utilizando contexto 2D, logo cada ponto é desenhado até formar o gráfico."
   },
 
   {
     "id": "ondas",
     "name": "Ondas",
     "github": "hugolnx/ondas-no-canvas",
-    "path": "http://ondas-no-canvas.heroku.com/"
+    "path": "http://ondas-no-canvas.heroku.com/",
+    "keywords": ["canvas", "ondas", "fisica"],
+    "description": "Experimento escolar de física onde são passadas as informações da onda e a mesma é desenhada utilizando canvas."
   }
 ]
