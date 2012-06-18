@@ -14,7 +14,7 @@ app.start(function(server) {
     var socialMetatags = app.render("social-metatags", {
       "title": "Index",
       "description": labs.description,
-      "image": path.join(url,"images/bigbutton.png"),
+      "image": path.join(url,"images/logo.png"),
       "type": "website",
       "url": url,
       "site-name": labs.name,
@@ -54,7 +54,7 @@ app.start(function(server) {
     var socialMetatags = app.render("social-metatags", {
       "title": experiment.name,
       "description": experiment.description,
-      "image": path.join(url,"images/bigbutton.png"),
+      "image": path.join(url,"images/logo.png"),
       "type": "website",
       "url": path.join(url, experiment.id),
       "site-name": labs.name,

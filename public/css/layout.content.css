@@ -8,7 +8,7 @@ body {
 }
 
 div#logo {
-  background: url("/images/logo.png") no-repeat;
+  background: url("/images/header.png") no-repeat;
   width: 266px;
   height: 110px;
   margin-left: auto;
