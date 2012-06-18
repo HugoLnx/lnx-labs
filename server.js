@@ -56,7 +56,7 @@ app.start(function(server) {
       "description": experiment.description,
       "image": path.join(url,"images/bigbutton.png"),
       "type": "website",
-      "url": url,
+      "url": path.join(url, experiment.id),
       "site-name": labs.name,
       "fb-user-id": labs.author["fb-user-id"],
       "fb-app-id": labs["fb-app-id"]
