@@ -13,3 +13,6 @@
 [submodule "public/experiments/exercicios-matematica-6o-ano"]
 	path = public/experiments/exercicios-matematica-6o-ano
 	url = git@github.com:/HugoLnx/exercicios-matematica-6o-ano.git
+[submodule "public/experiments/genius"]
+	path = public/experiments/genius
+	url = git@github.com:/HugoLnx/genius.git

@@ -51,5 +51,14 @@
     "path": "/experiments/exercicios-matematica-6o-ano",
     "keywords": ["exercicios", "matematica", "6", "fundamental"],
     "description": "Criador de exercicios automaticos para alunos do 6o ano do fundamental. As matérias envolvidas são: Multiplos, Divisores, Multiplos comuns, mínimo múltiplo comum (mmc), máximo divisor comum (MDC), soma de graus e subtração de graus."
+  },
+
+  {
+    "id": "genius",
+    "name": "Genius",
+    "github": "hugolnx/genius",
+    "path": "/experiments/genius",
+    "keywords": ["genius", "javascript", "game"],
+    "description": "Jogo chamado Genius desenvolvido com Javascript. O objetivo do jogo é acertar a sequência de cores e subir ao maior level possĩvel."
   }
 ]
