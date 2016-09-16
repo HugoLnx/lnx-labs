@@ -1,15 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel+Decorative';
+
 ul#experiments {
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
   list-style: none;
 }
 
 ul#experiments li {
-  padding:5px;
-  margin: 10px 5px;
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+ul#experiments li a:hover {
+  opacity: 0.75;
+}
+
+ul#experiments li .github {
+  text-align: left;
+  width: 50px;
+}
+
+#experiments .ilustration {
+  width: 350px;
+  height: 262px;
+  border: 2px solid #88e;
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  -khtml-border-radius:  10px;
+  border-radius:         10px;
+  -moz-box-shadow:    -0px 0px 10px #88f;
+  -webkit-box-shadow: -0px 0px 10px #88f;
+  box-shadow:         -0px 0px 10px #88f;
+}
+
+#experiments .name {
+  width: 60%;
   text-align: center;
-  border: 8px solid #33e;
-  background: #44f;
+  border: 1px solid #88e;
+  background: #99f;
   -webkit-border-radius: 10px;
   -moz-border-radius:    10px;
   -khtml-border-radius:  10px;
@@ -18,16 +47,19 @@ ul#experiments li {
   -webkit-box-shadow: -0px 0px 10px #88f;
   box-shadow:         -0px 0px 10px #88f;
 
-  font-size: 40px;
-  font-family: technique;
+  font-size: 20px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 800;
   text-shadow: 0px -2px 2px #55f,0px -2px 2px #55f;
 }
 
-ul#experiments li:hover {
-  opacity: 0.75;
+ul#experiments li a {
+  display: inline-block;
+  padding: 10px 3px;
+  vertical-align: middle;
 }
 
 ul#experiments a,ul#experiments a:hover,ul#experiments a:link,ul#experiments a:hover,ul#experiments a:active {
   text-decoration: none;
-  color: #66f;
+  color: #bbf;
 }

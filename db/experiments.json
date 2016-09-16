@@ -1,56 +1,29 @@
 [
   {
-    "id": "estrelas",
-    "name": "Estrelas",
-    "github": "hugolnx/estrela",
-    "path": "/experiments/estrelas",
-    "keywords": ["canvas", "estrelas", "html5"],
-    "description": "Um experimento com canvas onde uma estrela é simulada com o passar do mouse."
+    "id": "asteroid-attack",
+    "name": "Asteroid Attack",
+    "github": "patricksava/astattack",
+    "uri": "http://ast-attack.herokuapp.com",
+    "keywords": ["asteroid", "javascript", "game"],
+    "description": "First game I made with Patrick Sava to compete on the 2016 Global Game Jam. The game is a satire of the classic Asteroids game. Instead of the player have a spaceship to control and destroy asteroids he have to guide an asteroid through the spaceships shoots so it can finally destroy earth. The project is a fork from G-die prototype because we reused all the animations and state control from it."
   },
 
   {
-    "id": "pingos",
-    "name": "Pingos",
-    "github": "hugolnx/pingos",
-    "path": "/experiments/pingos",
-    "keywords": ["canvas", "pingos", "html5"],
-    "description": "Um experimento com canvas onde um tipo de pingo aparece ao clicar na tela."
+    "id": "gdie-offline",
+    "name": "G-die offline",
+    "github": "hugolnx/gdie",
+    "uri": "http://gdie-offline.herokuapp.com",
+    "keywords": ["platform", "prototype", "javascript", "game"],
+    "description": "First experiment implementing a multiplayer online platform game, still in development, I’m using PIXI.js to take care of the renderization of sprites and node.js with primus to build a websockets server."
   },
 
   {
-    "id": "pac-ghost",
-    "name": "Ghost do Pacman",
-    "github": "hugolnx/ghost-pacman",
-    "path": "/experiments/ghost-pacman",
-    "keywords": ["canvas", "pacman", "animation"],
-    "description": "Uma pequena animação com canvas do fantasma do pacman. O fantasma é 100% desenhado usando canvas, nenhuma imagem é importada durante a animação."
-  },
-
-  {
-    "id": "graph3d",
-    "name": "Graficos 3D",
-    "github": "hugolnx/Canvas-Graphic-3D",
-    "path": "/experiments/canvas-graphic-3d",
-    "keywords": ["canvas", "grafico", "3D"],
-    "description": "Um experimento com canvas onde um gráfico 3D é desenhado baseado numa função. Tal experimento foi feito utilizando contexto 2D, logo cada ponto é desenhado até formar o gráfico."
-  },
-
-  {
-    "id": "ondas",
-    "name": "Ondas",
-    "github": "hugolnx/ondas-no-canvas",
-    "path": "http://ondas-no-canvas.heroku.com/",
-    "keywords": ["canvas", "ondas", "fisica"],
-    "description": "Experimento escolar de física onde são passadas as informações da onda e a mesma é desenhada utilizando canvas."
-  },
-
-  {
-    "id": "exercicios-matematica-6o-ano",
-    "name": "Exercicios de Matematica para 6o Ano",
-    "github": "hugolnx/exercicios-matematica-6o-ano",
-    "path": "/experiments/exercicios-matematica-6o-ano",
-    "keywords": ["exercicios", "matematica", "6", "fundamental"],
-    "description": "Criador de exercicios automaticos para alunos do 6o ano do fundamental. As matérias envolvidas são: Multiplos, Divisores, Multiplos comuns, mínimo múltiplo comum (mmc), máximo divisor comum (MDC), soma de graus e subtração de graus."
+    "id": "gdie-online",
+    "name": "G-die online",
+    "github": "hugolnx/gdie",
+    "uri": "http://gdie.herokuapp.com",
+    "keywords": ["platform", "prototype", "javascript", "game"],
+    "description": "First experiment implementing a multiplayer online platform game, still in development, I’m using PIXI.js to take care of the renderization of sprites and node.js with primus to build a websockets server."
   },
 
   {
@@ -59,6 +32,42 @@
     "github": "hugolnx/genius",
     "path": "/experiments/genius",
     "keywords": ["genius", "javascript", "game"],
-    "description": "Jogo chamado Genius desenvolvido com Javascript. O objetivo do jogo é acertar a sequência de cores e subir ao maior level possĩvel."
+    "description": "Genius game made with pure javascript."
+  },
+
+  {
+    "id": "graph3d",
+    "name": "Graficos 3D",
+    "github": "hugolnx/Canvas-Graphic-3D",
+    "path": "/experiments/canvas-graphic-3d",
+    "keywords": ["canvas", "graphic", "3D"],
+    "description": "Canvas experiment where I use 2D geometry to simulate an 3D graphic."
+  },
+
+  {
+    "id": "star",
+    "name": "Star",
+    "github": "hugolnx/estrela",
+    "path": "/experiments/estrelas",
+    "keywords": ["canvas", "star", "html5"],
+    "description": "Canvas funny experiment"
+  },
+
+  {
+    "id": "drops",
+    "name": "Drops",
+    "github": "hugolnx/pingos",
+    "path": "/experiments/pingos",
+    "keywords": ["canvas", "drops", "html5"],
+    "description": "Canvas funny experiment"
+  },
+
+  {
+    "id": "pacman-ghost",
+    "name": "Pacman Ghost",
+    "github": "hugolnx/ghost-pacman",
+    "path": "/experiments/ghost-pacman",
+    "keywords": ["canvas", "pacman", "animation"],
+    "description": "Canvas funny experiment"
   }
 ]

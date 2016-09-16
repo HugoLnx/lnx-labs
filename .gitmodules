@@ -1,0 +1,21 @@
+[submodule "public/experiments/estrelas"]
+	path = public/experiments/estrelas
+	url = https://github.com/HugoLnx/Estrela
+[submodule "public/experiments/genius"]
+	path = public/experiments/genius
+	url = https://github.com/HugoLnx/genius
+[submodule "public/experiments/canvas-graphic-3d"]
+	path = public/experiments/canvas-graphic-3d
+	url = https://github.com/HugoLnx/Canvas-Graphic-3D
+[submodule "public/experiments/pingos"]
+	path = public/experiments/pingos
+	url = https://github.com/HugoLnx/Pingos
+[submodule "public/experiments/ghost-pacman"]
+	path = public/experiments/ghost-pacman
+	url = https://github.com/HugoLnx/ghost-pacman
+[submodule "public/experiments/asteroid-attack"]
+	path = public/experiments/asteroid-attack
+	url = https://github.com/patricksava/AstAttack
+[submodule "public/experiments/gdie"]
+	path = public/experiments/gdie
+	url = https://github.com/HugoLnx/gdie

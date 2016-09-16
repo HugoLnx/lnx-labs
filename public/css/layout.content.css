@@ -1,10 +1,8 @@
-@font-face {
-  font-family: "technique";
-  src: url("/fonts/techniqu.ttf");
-}
-
 body {
-  background: #44f;
+  background: #ddf;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 div#logo {
@@ -13,12 +11,19 @@ div#logo {
   height: 110px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
 div#content {
   width: 900px;
   margin: 0px auto;
   text-align: center;
+	min-height: 60%;
+}
+
+#content:after {
+  content: "";
+  display: block;
 }
 
 div#header {
