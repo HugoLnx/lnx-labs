@@ -4,7 +4,9 @@
     <img class="ilustration" src="/images/{{id}}.png">
     {{#uri}} <a class="name" target="_blank" href="{{.}}">{{../name}}</a> {{/uri}}
     {{#path}} <a class="name" href="{{../id}}">{{../name}}</a> {{/path}}
+    {{#if github}}
     <a class="github" href="https://github.com/{{github}}"><img width="50px" src="http://image.flaticon.com/icons/svg/25/25231.svg"></img></a>
+    {{/if}}
   </li>
   {{/experiments}}
 </ul>
