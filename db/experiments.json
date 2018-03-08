@@ -1,5 +1,13 @@
 [
   {
+    "id": "sunseek",
+    "name": "Sun Seek",
+    "uri": "http://sunseek.herokuapp.com/",
+    "keywords": ["unity3d", "design", "game"],
+    "description": "Game prototype I made after studying a little of Game Design."
+  },
+
+  {
     "id": "asteroid-attack",
     "name": "Asteroid Attack",
     "github": "patricksava/astattack",
@@ -10,18 +18,9 @@
 
   {
     "id": "gdie-offline",
-    "name": "G-die offline",
+    "name": "G-die",
     "github": "hugolnx/gdie",
     "uri": "http://gdie-offline.herokuapp.com",
-    "keywords": ["platform", "prototype", "javascript", "game"],
-    "description": "First experiment implementing a multiplayer online platform game, still in development, I’m using PIXI.js to take care of the renderization of sprites and node.js with primus to build a websockets server."
-  },
-
-  {
-    "id": "gdie-online",
-    "name": "G-die online",
-    "github": "hugolnx/gdie",
-    "uri": "http://gdie.herokuapp.com",
     "keywords": ["platform", "prototype", "javascript", "game"],
     "description": "First experiment implementing a multiplayer online platform game, still in development, I’m using PIXI.js to take care of the renderization of sprites and node.js with primus to build a websockets server."
   },
@@ -36,38 +35,11 @@
   },
 
   {
-    "id": "graph3d",
-    "name": "Graficos 3D",
-    "github": "hugolnx/Canvas-Graphic-3D",
-    "path": "/experiments/canvas-graphic-3d",
-    "keywords": ["canvas", "graphic", "3D"],
-    "description": "Canvas experiment where I use 2D geometry to simulate an 3D graphic."
-  },
-
-  {
     "id": "star",
     "name": "Star",
     "github": "hugolnx/estrela",
     "path": "/experiments/estrelas",
     "keywords": ["canvas", "star", "html5"],
-    "description": "Canvas funny experiment"
-  },
-
-  {
-    "id": "drops",
-    "name": "Drops",
-    "github": "hugolnx/pingos",
-    "path": "/experiments/pingos",
-    "keywords": ["canvas", "drops", "html5"],
-    "description": "Canvas funny experiment"
-  },
-
-  {
-    "id": "pacman-ghost",
-    "name": "Pacman Ghost",
-    "github": "hugolnx/ghost-pacman",
-    "path": "/experiments/ghost-pacman",
-    "keywords": ["canvas", "pacman", "animation"],
     "description": "Canvas funny experiment"
   }
 ]
