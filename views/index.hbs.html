@@ -7,6 +7,11 @@
     {{#if github}}
     <a class="github" href="https://github.com/{{github}}"><img width="50px" src="http://image.flaticon.com/icons/svg/25/25231.svg"></img></a>
     {{/if}}
+    {{#if note}}
+      <div class="note">{{note}}</div>
+    {{else}}
+      <div class="note invisible">...</div>
+    {{/if}}
   </li>
   {{/experiments}}
 </ul>

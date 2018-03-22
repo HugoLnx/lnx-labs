@@ -65,3 +65,12 @@ ul#experiments a,ul#experiments a:hover,ul#experiments a:link,ul#experiments a:h
   text-decoration: none;
   color: #bbf;
 }
+
+#experiments .note {
+  color: #666;
+  padding: 3px;
+}
+
+#experiments .note.invisible {
+  visibility: hidden;
+}

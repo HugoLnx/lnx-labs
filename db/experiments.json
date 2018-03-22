@@ -13,7 +13,8 @@
     "github": "patricksava/astattack",
     "uri": "http://ast-attack.herokuapp.com",
     "keywords": ["asteroid", "javascript", "game"],
-    "description": "First game I made with Patrick Sava to compete on the 2016 Global Game Jam. The game is a satire of the classic Asteroids game. Instead of the player have a spaceship to control and destroy asteroids he have to guide an asteroid through the spaceships shoots so it can finally destroy earth. The project is a fork from G-die prototype because we reused all the animations and state control from it."
+    "description": "First game I made with Patrick Sava to compete on the 2016 Global Game Jam. The game is a satire of the classic Asteroids game. Instead of the player have a spaceship to control and destroy asteroids he have to guide an asteroid through the spaceships shoots so it can finally destroy earth. The project is a fork from G-die prototype because we reused all the animations and state control from it.",
+    "note": "Reload the page if the game does not start on first time."
   },
 
   {
